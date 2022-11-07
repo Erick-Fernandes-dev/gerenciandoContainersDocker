@@ -47,7 +47,7 @@ docker ps -s -> mostra o tamanho do container
 ```
 ### === Utilizano o bind mounts ===
 
-####comandos Simples
+#### comandos Simples
 ```docker
 docker container start <id>
 
@@ -56,7 +56,7 @@ docker container exec -it 033 bash
 docker stop $(docker container ls -q)
 ```
 
-###Persistir dados com container
+### Persistir dados com container
 - Duas formas de persistir dados em linha de comando com o docker
 
 >__Primeira forma, com a flag -v:__
